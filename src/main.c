@@ -1,9 +1,6 @@
 #include "main.h"
 #include "render.h"
 #include "lua.h"
-#include <SDL2/SDL_hints.h>
-#include <SDL2/SDL_pixels.h>
-#include <SDL2/SDL_surface.h>
 #include <lua.h>
 #include <lualib.h>
 #include <lauxlib.h>
