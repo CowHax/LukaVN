@@ -1,6 +1,4 @@
-#include <SDL2/SDL_pixels.h>
-#include <SDL2/SDL_stdinc.h>
-#include <SDL2/SDL_rect.h>
+
 
 #ifndef TYPES
 #define TYPES
@@ -24,14 +22,14 @@ typedef struct{
 	u16 iid; //image identifier
 	u16 flags; //image flags
 	rect is; //imagespace
-	SDL_Rect pos; //to remove SDL_rect imagespace
+	//SDL_Rect pos; //to remove SDL_rect imagespace
 } image;
 
 typedef struct{
 	char* name;
 	char* text;
-	SDL_Color color;
-	SDL_Rect pos;
+	//SDL_Color color;
+	//SDL_Rect pos;
 } textbox;
 
 typedef struct{
