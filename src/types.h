@@ -1,4 +1,4 @@
-
+#include <stdint.h>
 
 #ifndef TYPES
 #define TYPES

@@ -2,7 +2,7 @@
 #include "main.h"
 
 float calc_scale(float a, float b, float c){
-	return (a / 255 * b) / c * ws.y * 2;
+	return (a / 255 * b) / c * 2;
 }
 
 float calc_pos(float a, float b, float c){
